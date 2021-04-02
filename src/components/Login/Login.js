@@ -45,29 +45,26 @@ const Login = () => {
                 history.replace(from);
 
             }).catch((error) => {
-                var errorCode = error.code;
                 var errorMessage = error.message;
-                var email = error.email;
-                var credential = error.credential;
                 console.log('login err', errorMessage);
 
             });
     }
     return (
         <div className='login-section'>
-        <Header></Header>
-        <div className='login-area'>
-            <h2 className='login-title'>Welcome To Bhuiyan's Grocery</h2>
+            <Header></Header>
+            <div className='login-area'>
+                <h2 className='login-title'>Welcome To Bhuiyan's Grocery</h2>
 
-            <div className='login-from'>
-                <h3 className='form-title'> Login</h3>
+                <div className='login-from'>
+                    <h3 className='form-title'> Login</h3>
 
-                <button onClick={googleSignIn} className='btn ggl-btn'>
-                    <span className='google'><FontAwesomeIcon icon={faGoogle} /></span> <span>Continue With Google</span>
-                </button>
+                    <button onClick={googleSignIn} className='btn ggl-btn'>
+                        <span className='google'><FontAwesomeIcon icon={faGoogle} /></span> <span>Continue With Google</span>
+                    </button>
+                </div>
+
             </div>
-
-        </div>
         </div>
     );
 };
