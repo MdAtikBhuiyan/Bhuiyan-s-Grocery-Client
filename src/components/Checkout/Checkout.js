@@ -32,7 +32,8 @@ const Checkout = () => {
     const handleCheckOut = () => {
         const date = new Date();
         const orderTime = date.toLocaleDateString() + " " + date.toLocaleTimeString();
-        const order = { ...product, ...loggedInUser, orderTime }
+        const order = { ...product, ...loggedInUser, orderTime };
+        delete order._id;
         fetch('https://secret-dusk-30528.herokuapp.com/addOrder', {
             method: "POST",
             headers: { "Content-Type": "application/json" },
