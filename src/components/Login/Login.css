@@ -1,6 +1,10 @@
 .google{
     color: red;
 }
+.login-section{
+    background: rgb(248, 238, 220);
+    min-height: 100vh;
+}
 .login-area{
     max-width: 600px;
     min-width: 300px !important;
@@ -8,6 +12,7 @@
     padding: 20px 30px;
     box-shadow: 2px 2px 15px 0 #D70F64;
     border-radius: 10px;
+    background-color: #fff;
 }
 .login-title{
     text-align: center;

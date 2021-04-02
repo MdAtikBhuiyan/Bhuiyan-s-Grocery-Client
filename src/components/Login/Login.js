@@ -7,6 +7,7 @@ import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import './Login.css';
 import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router';
+import Header from '../Header/Header';
 
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
@@ -53,6 +54,8 @@ const Login = () => {
             });
     }
     return (
+        <div className='login-section'>
+        <Header></Header>
         <div className='login-area'>
             <h2 className='login-title'>Welcome To Bhuiyan's Grocery</h2>
 
@@ -65,7 +68,7 @@ const Login = () => {
             </div>
 
         </div>
-
+        </div>
     );
 };
 
