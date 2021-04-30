@@ -24,7 +24,7 @@ const ManageProductDetails = ({ products }) => {
         <tr>
             <td>{productName}</td>
             <td>{productWeight}</td>
-            <td>{productPrice}</td>
+            <td>$ {productPrice}</td>
             <td>
                 <button onClick={() => deleteProduct(_id)} className='btn delete-btn'>
                     <FontAwesomeIcon icon={faTrashAlt} />

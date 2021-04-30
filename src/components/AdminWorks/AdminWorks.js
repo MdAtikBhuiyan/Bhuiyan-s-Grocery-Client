@@ -25,8 +25,8 @@ const AdminWorks = () => {
     const [imgUrl, setImgUrl] = useState(null);
 
     const imageUpload = (e) => {
-        console.log(e.target.files[0]);
 
+        console.log(e.target.files[0]);
         const imgData = new FormData();
         imgData.set('key', 'eedf45f5159b6e8f0f23e26c24c443e0');
         imgData.append('image', e.target.files[0]);
@@ -48,7 +48,6 @@ const AdminWorks = () => {
             productUrl: imgUrl,
             productWeight: data.productWeight
         }
-
         fetch('https://secret-dusk-30528.herokuapp.com/addProduct', {
             method: "POST",
             headers: { "Content-Type": "application/json" },

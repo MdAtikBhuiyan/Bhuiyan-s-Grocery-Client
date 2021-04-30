@@ -67,8 +67,8 @@ const Checkout = () => {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>1</td>
                                         <td>{productName}</td>
+                                        <td>1</td>
                                         <td>$ {productPrice}</td>
                                     </tr>
                                     <tr>
@@ -101,7 +101,7 @@ const Checkout = () => {
                                             </tr>
                                             <tr>
                                                 <td colSpan="2">Product Price</td>
-                                                <td colSpan="2"> {productPrice} </td>
+                                                <td colSpan="2">$ {productPrice} </td>
                                             </tr>
                                             <tr>
                                                 <td colSpan="2">Product Quantity</td>
@@ -119,7 +119,7 @@ const Checkout = () => {
                                             </tr>
                                             <tr>
                                                 <td colSpan="2">Total Price</td>
-                                                <td colSpan="2"> {productPrice} </td>
+                                                <td colSpan="2">$ {productPrice} </td>
                                             </tr>
 
                                         </tbody>

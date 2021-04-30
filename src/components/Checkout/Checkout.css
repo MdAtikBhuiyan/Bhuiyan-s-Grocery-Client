@@ -27,11 +27,7 @@ tbody {
 
 /* comfirm area */
 
-.bg-confirm{
-    background: #F8EEDC;
-    height: 100vh;
-    padding: 25px 0;
-}
+
 .bg-confirm .title-set{
     margin-bottom: 25px !important;
 }
@@ -41,7 +37,7 @@ tbody {
 .confirm-box{
     width: 90%;
     margin: auto;
-    box-shadow: 0px 0px 12px 0px #d70f64;
+    box-shadow: 0px 0px 12px 0px #363958;
     text-align: center;
     padding: 30px 50px;
     border-radius: 10px;
