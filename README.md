@@ -5,6 +5,6 @@ This is a Grocery Store based e-commerce website with admin option. Where people
 # Technology: 
 
 * Front-end: JavaScript, React, Bootstrap,
-* Back-end: Node.js, Express.js, MongoDB, Firebase Authentication, Stripe.js, Heroku.
+* Back-end: Node.js, Express.js, MongoDB, Firebase Authentication, Heroku.
 
 [Live Website](https://bhuiyans-grocery.web.app/) | [Server Site Code](https://github.com/MdAtikBhuiyan/Bhuiyan-s-Grocery-Server) 
